@@ -21,3 +21,19 @@
 
 /* ---------------------------------------------------- */
 /* ZDE NAPIŠ VLASTNÍ CSS */
+.kontejner {
+    display: flex;
+}
+
+.prvni {
+flex: 1 1 25%;
+}
+
+.druhy,
+.treti {
+    flex: 0 1 100px;
+}
+
+.ctvrty {
+    flex: 1 1 50%;
+}
